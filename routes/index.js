@@ -20,8 +20,6 @@ router.get('/users', (req, res) => {
 })
 
 router.get('/users/test', (req, res) => {
-  if (true) return res.send(true)
-
   res.send('test')
 })
 
